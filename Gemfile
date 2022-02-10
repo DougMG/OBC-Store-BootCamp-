@@ -10,6 +10,8 @@ gem 'devise_token_auth', '~> 1.1.4'
 gem 'inky-rb', require: 'inky'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 # Use postgresql as the database for Active Record
+# Render JSON
+gem 'jbuilder', '~> 2.10.1'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'premailer-rails'
 # Use Puma as the app server
